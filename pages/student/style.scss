@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.studentPage{
+    .backgroundImg{
+        background-color: rgb(17, 50, 150);
+        height: 15rem;
+    }
+    .student{
+        margin: auto;
+        text-align: center;
+        width: 15rem;
+        margin-top: -7.5rem;
+        .img-con{
+            width: 15rem;
+            height: 15rem;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 100%;
+        }
+        .name{
+            color: #000;
+            margin: 1rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .details{
+            .socialLinks{
+                font-size: 2rem;
+                i{
+                    margin: 0 .8rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

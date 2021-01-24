@@ -1,0 +1,41 @@
+.container{
+    table{
+      margin-top: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+         text-align: center;
+          
+          td, th {
+            // border: 1px solid #555;
+            padding: 8px;
+          }
+          
+          tr:hover {opacity: .9;}
+          
+          th {
+            border: 2px solid rgb(80, 80, 80);
+
+            padding-top: 12px;
+            padding-bottom: 12px;
+            // text-align: left;
+            background-color: #444;
+            color: white;
+          }
+          .green{
+              background-color: #28a745 !important;
+              td{
+            border: 2px solid #31b34f;
+
+              }
+          }
+          .red{
+              background-color: #dc3545 !important;
+            color: rgba(255, 255, 255, 0.836);
+              td{
+                border: 2px solid #e75c6a;
+    
+                  }
+          }
+    }
+}

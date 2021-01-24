@@ -1,0 +1,41 @@
+.container table {
+  margin-top: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.container table td, .container table th {
+  padding: 8px;
+}
+
+.container table tr:hover {
+  opacity: .9;
+}
+
+.container table th {
+  border: 2px solid #505050;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #444;
+  color: white;
+}
+
+.container table .green {
+  background-color: #28a745 !important;
+}
+
+.container table .green td {
+  border: 2px solid #31b34f;
+}
+
+.container table .red {
+  background-color: #dc3545 !important;
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.container table .red td {
+  border: 2px solid #e75c6a;
+}
+/*# sourceMappingURL=style.css.map */

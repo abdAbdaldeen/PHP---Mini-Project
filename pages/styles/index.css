@@ -1,0 +1,38 @@
+* {
+  text-decoration: none !important;
+}
+
+.mycontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mycontainer .student {
+  background-color: gainsboro;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.mycontainer .student .img-con {
+  width: 15rem;
+  height: 15rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+}
+
+.mycontainer .student .name {
+  color: #000;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=index.css.map */
